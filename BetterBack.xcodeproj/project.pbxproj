@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C553DBFC2DA7AF9F002BC74B /* BLECommandPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C553DBFB2DA7AF9F002BC74B /* BLECommandPreviewView.swift */; };
+		C555185E2DA2DE47001215C0 /* VibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C555185D2DA2DE47001215C0 /* VibrationView.swift */; };
+		C55518602DA6D1AB001215C0 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C555185F2DA6D1AB001215C0 /* BatteryView.swift */; };
+		C59798B02D99BAD2005366DA /* BetterBackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798AF2D99BAD2005366DA /* BetterBackApp.swift */; };
+		C59798B42D99BAD2005366DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59798B32D99BAD2005366DA /* Assets.xcassets */; };
+		C59798B72D99BAD2005366DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59798B62D99BAD2005366DA /* Preview Assets.xcassets */; };
+		C59798C12D99BAD3005366DA /* BetterBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798C02D99BAD3005366DA /* BetterBackTests.swift */; };
+		C59798CB2D99BAD3005366DA /* BetterBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798CA2D99BAD3005366DA /* BetterBackUITests.swift */; };
+		C59798CD2D99BAD3005366DA /* BetterBackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798CC2D99BAD3005366DA /* BetterBackUITestsLaunchTests.swift */; };
+		C59798DA2D99BB34005366DA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798D92D99BB34005366DA /* MainTabView.swift */; };
+		C59798DC2D99BB4A005366DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798DB2D99BB4A005366DA /* HomeView.swift */; };
+		C59798DE2D99BB5C005366DA /* InitializationView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798DD2D99BB5C005366DA /* InitializationView.swift .swift */; };
+		C59798E02D99BB73005366DA /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798DF2D99BB73005366DA /* CalibrationView.swift */; };
+		C59798E42D99BBA3005366DA /* BluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59798E32D99BBA3005366DA /* BluetoothViewModel.swift */; };
+		C5B4E4382DAC21A600D7A11D /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4E4372DAC21A600D7A11D /* HomeView2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C59798BD2D99BAD3005366DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59798A42D99BAD2005366DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59798AB2D99BAD2005366DA;
+			remoteInfo = BetterBack;
+		};
+		C59798C72D99BAD3005366DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59798A42D99BAD2005366DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59798AB2D99BAD2005366DA;
+			remoteInfo = BetterBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C553DBFB2DA7AF9F002BC74B /* BLECommandPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECommandPreviewView.swift; sourceTree = "<group>"; };
+		C555185D2DA2DE47001215C0 /* VibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationView.swift; sourceTree = "<group>"; };
+		C555185F2DA6D1AB001215C0 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		C59798AC2D99BAD2005366DA /* BetterBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59798AF2D99BAD2005366DA /* BetterBackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBackApp.swift; sourceTree = "<group>"; };
+		C59798B32D99BAD2005366DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59798B62D99BAD2005366DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C59798BC2D99BAD3005366DA /* BetterBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59798C02D99BAD3005366DA /* BetterBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBackTests.swift; sourceTree = "<group>"; };
+		C59798C62D99BAD3005366DA /* BetterBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59798CA2D99BAD3005366DA /* BetterBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBackUITests.swift; sourceTree = "<group>"; };
+		C59798CC2D99BAD3005366DA /* BetterBackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C59798D92D99BB34005366DA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C59798DB2D99BB4A005366DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C59798DD2D99BB5C005366DA /* InitializationView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InitializationView.swift .swift"; sourceTree = "<group>"; };
+		C59798DF2D99BB73005366DA /* CalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
+		C59798E32D99BBA3005366DA /* BluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewModel.swift; sourceTree = "<group>"; };
+		C5B4E4372DAC21A600D7A11D /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59798A92D99BAD2005366DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798B92D99BAD3005366DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798C32D99BAD3005366DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59798A32D99BAD2005366DA = {
+			isa = PBXGroup;
+			children = (
+				C59798AE2D99BAD2005366DA /* BetterBack */,
+				C59798BF2D99BAD3005366DA /* BetterBackTests */,
+				C59798C92D99BAD3005366DA /* BetterBackUITests */,
+				C59798AD2D99BAD2005366DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59798AD2D99BAD2005366DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59798AC2D99BAD2005366DA /* BetterBack.app */,
+				C59798BC2D99BAD3005366DA /* BetterBackTests.xctest */,
+				C59798C62D99BAD3005366DA /* BetterBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59798AE2D99BAD2005366DA /* BetterBack */ = {
+			isa = PBXGroup;
+			children = (
+				C59798AF2D99BAD2005366DA /* BetterBackApp.swift */,
+				C59798D92D99BB34005366DA /* MainTabView.swift */,
+				C59798DB2D99BB4A005366DA /* HomeView.swift */,
+				C555185D2DA2DE47001215C0 /* VibrationView.swift */,
+				C59798DF2D99BB73005366DA /* CalibrationView.swift */,
+				C553DBFB2DA7AF9F002BC74B /* BLECommandPreviewView.swift */,
+				C59798E32D99BBA3005366DA /* BluetoothViewModel.swift */,
+				C5B4E4372DAC21A600D7A11D /* HomeView2.swift */,
+				C59798DD2D99BB5C005366DA /* InitializationView.swift .swift */,
+				C555185F2DA6D1AB001215C0 /* BatteryView.swift */,
+				C59798B32D99BAD2005366DA /* Assets.xcassets */,
+				C59798B52D99BAD2005366DA /* Preview Content */,
+			);
+			path = BetterBack;
+			sourceTree = "<group>";
+		};
+		C59798B52D99BAD2005366DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C59798B62D99BAD2005366DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C59798BF2D99BAD3005366DA /* BetterBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				C59798C02D99BAD3005366DA /* BetterBackTests.swift */,
+			);
+			path = BetterBackTests;
+			sourceTree = "<group>";
+		};
+		C59798C92D99BAD3005366DA /* BetterBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C59798CA2D99BAD3005366DA /* BetterBackUITests.swift */,
+				C59798CC2D99BAD3005366DA /* BetterBackUITestsLaunchTests.swift */,
+			);
+			path = BetterBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59798AB2D99BAD2005366DA /* BetterBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59798D02D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBack" */;
+			buildPhases = (
+				C59798A82D99BAD2005366DA /* Sources */,
+				C59798A92D99BAD2005366DA /* Frameworks */,
+				C59798AA2D99BAD2005366DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterBack;
+			productName = BetterBack;
+			productReference = C59798AC2D99BAD2005366DA /* BetterBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C59798BB2D99BAD3005366DA /* BetterBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59798D32D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBackTests" */;
+			buildPhases = (
+				C59798B82D99BAD3005366DA /* Sources */,
+				C59798B92D99BAD3005366DA /* Frameworks */,
+				C59798BA2D99BAD3005366DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59798BE2D99BAD3005366DA /* PBXTargetDependency */,
+			);
+			name = BetterBackTests;
+			productName = BetterBackTests;
+			productReference = C59798BC2D99BAD3005366DA /* BetterBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C59798C52D99BAD3005366DA /* BetterBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59798D62D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBackUITests" */;
+			buildPhases = (
+				C59798C22D99BAD3005366DA /* Sources */,
+				C59798C32D99BAD3005366DA /* Frameworks */,
+				C59798C42D99BAD3005366DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59798C82D99BAD3005366DA /* PBXTargetDependency */,
+			);
+			name = BetterBackUITests;
+			productName = BetterBackUITests;
+			productReference = C59798C62D99BAD3005366DA /* BetterBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59798A42D99BAD2005366DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C59798AB2D99BAD2005366DA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C59798BB2D99BAD3005366DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C59798AB2D99BAD2005366DA;
+					};
+					C59798C52D99BAD3005366DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C59798AB2D99BAD2005366DA;
+					};
+				};
+			};
+			buildConfigurationList = C59798A72D99BAD2005366DA /* Build configuration list for PBXProject "BetterBack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59798A32D99BAD2005366DA;
+			productRefGroup = C59798AD2D99BAD2005366DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59798AB2D99BAD2005366DA /* BetterBack */,
+				C59798BB2D99BAD3005366DA /* BetterBackTests */,
+				C59798C52D99BAD3005366DA /* BetterBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59798AA2D99BAD2005366DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59798B72D99BAD2005366DA /* Preview Assets.xcassets in Resources */,
+				C59798B42D99BAD2005366DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798BA2D99BAD3005366DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798C42D99BAD3005366DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59798A82D99BAD2005366DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55518602DA6D1AB001215C0 /* BatteryView.swift in Sources */,
+				C553DBFC2DA7AF9F002BC74B /* BLECommandPreviewView.swift in Sources */,
+				C59798DC2D99BB4A005366DA /* HomeView.swift in Sources */,
+				C59798B02D99BAD2005366DA /* BetterBackApp.swift in Sources */,
+				C5B4E4382DAC21A600D7A11D /* HomeView2.swift in Sources */,
+				C59798E02D99BB73005366DA /* CalibrationView.swift in Sources */,
+				C59798E42D99BBA3005366DA /* BluetoothViewModel.swift in Sources */,
+				C59798DE2D99BB5C005366DA /* InitializationView.swift .swift in Sources */,
+				C59798DA2D99BB34005366DA /* MainTabView.swift in Sources */,
+				C555185E2DA2DE47001215C0 /* VibrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798B82D99BAD3005366DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59798C12D99BAD3005366DA /* BetterBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59798C22D99BAD3005366DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59798CB2D99BAD3005366DA /* BetterBackUITests.swift in Sources */,
+				C59798CD2D99BAD3005366DA /* BetterBackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C59798BE2D99BAD3005366DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59798AB2D99BAD2005366DA /* BetterBack */;
+			targetProxy = C59798BD2D99BAD3005366DA /* PBXContainerItemProxy */;
+		};
+		C59798C82D99BAD3005366DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59798AB2D99BAD2005366DA /* BetterBack */;
+			targetProxy = C59798C72D99BAD3005366DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C59798CE2D99BAD3005366DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59798CF2D99BAD3005366DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59798D12D99BAD3005366DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterBack/Preview Content\"";
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "<key>NSBluetoothAlwaysUsageDescription</key>\n<string>This app uses Bluetooth to connect to BetterBack devices for sensor data and device configuration.</string>\n";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "<key>NSBluetoothAlwaysUsageDescription</key>\n<string>This app uses Bluetooth to connect to BetterBack devices for sensor data and device configuration.</string>\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59798D22D99BAD3005366DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterBack/Preview Content\"";
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "<key>NSBluetoothAlwaysUsageDescription</key>\n<string>This app uses Bluetooth to connect to BetterBack devices for sensor data and device configuration.</string>\n";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "<key>NSBluetoothAlwaysUsageDescription</key>\n<string>This app uses Bluetooth to connect to BetterBack devices for sensor data and device configuration.</string>\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C59798D42D99BAD3005366DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterBack";
+			};
+			name = Debug;
+		};
+		C59798D52D99BAD3005366DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterBack";
+			};
+			name = Release;
+		};
+		C59798D72D99BAD3005366DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterBack;
+			};
+			name = Debug;
+		};
+		C59798D82D99BAD3005366DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7GVSNT592;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunyin.BetterBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59798A72D99BAD2005366DA /* Build configuration list for PBXProject "BetterBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59798CE2D99BAD3005366DA /* Debug */,
+				C59798CF2D99BAD3005366DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59798D02D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59798D12D99BAD3005366DA /* Debug */,
+				C59798D22D99BAD3005366DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59798D32D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59798D42D99BAD3005366DA /* Debug */,
+				C59798D52D99BAD3005366DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59798D62D99BAD3005366DA /* Build configuration list for PBXNativeTarget "BetterBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59798D72D99BAD3005366DA /* Debug */,
+				C59798D82D99BAD3005366DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59798A42D99BAD2005366DA /* Project object */;
+}
